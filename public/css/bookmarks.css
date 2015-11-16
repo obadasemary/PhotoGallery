@@ -1,0 +1,89 @@
+@charset "utf-8";
+/* CSS Document */
+/*General Rules*/
+
+/*General Rules END*/
+/* Posetions */
+
+/* IDs */
+#book_b{
+	width: 8px;
+	height: 14px;
+	margin-left: 8px;
+	margin-top: 11px;
+	}
+#date_time{
+	float: left;
+	margin-top: 3px;
+	margin-left: 4px;
+	width: 90px;
+	height: 18px;
+	/* [disabled]background-color: #3333FF; */
+	font-family: Helvetica,Arial,'lucida grande',tahoma,verdana,arial,sans-serif;
+
+	}
+/* IDs END */
+
+/* Classes */
+.h_font_style_2{
+	font-size: 14px;
+ font-family: Helvetica,Arial,'lucida grande',tahoma,verdana,arial,sans-serif;
+  color: rgb( 255, 102, 0 );
+	}
+	.bookmarks_links{
+	width: 699px;
+	height: 30px;
+	/* [disabled]background-color: #3333CC; */
+	float: left;
+	margin-left: 2px;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	margin-right: 2px;
+	}
+.main_b_list{
+	display: inline-block;
+	width: 346px;
+	background-color: #999999;
+	height: 24px;
+	margin-left: 3px;
+	opacity: 0.65;
+	/* [disabled]overflow:hidden; */
+	margin-top: 0px;
+	float: left;
+	}
+.main_a_link a{
+	color: #000000;
+	font-family:Helvetica,Arial,'lucida grande',tahoma,verdana,arial,sans-serif;
+	}
+.inputs_b{
+	float: left;
+	margin-right: 2px;
+	}
+.main_a_link{
+	/* [disabled]background-color: #99CC00; */
+	margin-left: 2px;
+	float: left;
+	margin-top: 2px;
+	width: 341px;
+	height: 20px;
+	overflow: hidden;
+		}
+
+/* Classes END */
+
+/*lines Begin*/
+.line_9{
+	width: 5px;
+	height: 555px;
+	background-color: rgb( 153, 153, 153 );
+	float: left;
+	}
+/*Lines End*/
+
+.main_a_link:hover{text-decoration:underline;}
+.main_b_list:hover{opacity: 1;}
+
+
+
+
+

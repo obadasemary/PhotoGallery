@@ -1,0 +1,117 @@
+/* CSS Document */
+body{
+	width: 1020px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 0px;
+	height: auto;
+	background-color: #ccc;
+	margin-bottom: 0px;
+	}
+/*h1{
+  font-size: 18px;
+  font-family: "Arial";
+  color: #000;
+  text-align: center;
+  padding: 0px;
+  margin: 0px;
+	}
+	
+h1:hover{
+	  color: rgb( 102, 0, 0 );
+	}*/
+#signup_container{
+	width: 470px;
+	height: 460px;
+	/*border: thin  dashed #606060;*/
+	background-image: url(../img/sign_up/sign_up_form.png);	
+	background-repeat: no-repeat;
+			margin-right: auto;
+	margin-left: auto;
+	margin-top: 115px;
+	}
+#form_signup{
+	width: 450px;
+	height: 406px;
+	margin-top: 20px;
+}
+#username_i {
+	font-size: 25px;
+	font-family: "Arial";
+	color: #000;
+	border-width: 1px;
+	border-color:#CCC;
+	border-style: dashed;
+	background-color: rgb( 204, 204, 204 );
+	width: 269px;
+	height: 53px;
+	margin-left: 179px;
+	margin-top: 58px;
+}
+#email_i{
+	 font-size: 25px;
+   font-family: "Arial";
+	border-width: 1px;
+	color: #000;
+	background-color: rgb( 204, 204, 204 );
+	border-color:#CCC;
+	border-style: dashed;
+	width: 269px;
+	height: 53px;
+	margin-left: 179px;
+	margin-top: 32px;
+	}
+#password_i{
+	font-size: 25px;
+	border-width: 1px;
+	color: #000;
+	border-color:#CCC;
+	border-style: dashed;
+	background-color: rgb( 204, 204, 204 );
+	width: 269px;
+	height: 53px;
+	margin-left: 179px;
+	margin-top: 44px;
+	}
+#r_password_i{
+	font-size: 25px;
+	border-width: 1px;
+	color: #000;
+	background-color: rgb( 204, 204, 204 );
+	border-color:#CCC;
+	border-style: dashed;
+	width: 269px;
+	height: 53px;
+	margin-left: 179px;
+	margin-top: 42px;
+	}
+#username_i:hover{
+	border-width: 1px;
+	border-color:#69F;
+	border-style: solid;
+	}
+#password_i:hover{
+	border-width: 1px;
+	border-color:#69F;
+	border-style: solid;
+	}
+#email_i:hover{
+	border-width: 1px;
+	border-color:#69F;
+	border-style: solid;
+	}
+#r_password_i:hover{
+	border-width: 1px;
+	border-color:#69F;
+	border-style: solid;
+	}
+#sign_up_button{
+	width:190px;
+	height:35px;
+	margin-left: 228px;
+	margin-top: 20px;
+	}
+#sign_up_button:hover{
+	background-image:  url(../img/sign_up/sign_up-hover.png);
+	background-repeat:no-repeat;
+	}

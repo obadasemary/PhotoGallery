@@ -1,0 +1,244 @@
+body{
+	margin-top: 0px;
+	width: 1020px;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 0px;
+	margin-bottom: 0px;
+	background-color:#282828;
+	}
+	
+	ul {
+	list-style-type: none;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	padding-right: 0px;
+	padding-left: 0px;
+	}
+
+#container, 
+#header,
+#container_slider,
+#footer{
+	width: 940px;
+	margin-right:40px;
+	margin-left:40px;
+	}
+#header{
+	background-image:url(../img/header_enhance.png);
+	background-repeat: no-repeat;
+	height: 71px;
+	}
+#container{
+	background-image: url(../img/basic_container.png);
+	background-repeat: no-repeat;
+	height: 297px;    }
+#container_slider{
+	height: 556px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	}
+#footer{
+	background-image: url(../img/footer.png);
+	background-repeat: no-repeat;
+	height: 69px;
+	margin-top: 10px;
+	margin-bottom: 0px;
+	}
+#slider_button_left,
+#slider_button_right{
+	background-repeat: no-repeat;
+	height: 186px;
+	width: 40px;
+	}
+#slider_button_left,
+#slider_button_right:hover{
+	cursor: pointer;
+	}
+#slider_button_left{
+	background-image: url(../img/slider_button_left-.png);
+	float: left;
+	margin-left: -40px;
+	margin-top: 190px;
+	}
+#slider_button_right{
+	background-image: url(../img/slider_button_right-.png);
+	float: right;
+	margin-right: -40px;
+	margin-top: 190px;
+ 	}
+/*#img_sign_up{
+	margin-left:400px;
+	margin-right:400px;
+	margin-bottom:134px;
+	margin-top:134px;
+	}*/
+	/*------- Header -----------*/
+#login_R{
+	width: 400px;
+	height: 57px;
+	float: left;
+	margin-left: 540px;
+	overflow: hidden;
+	clear: both;
+	margin-top: -102px;
+	/*margin-top: -103px;*/
+	}
+#login_R li{
+	display: inline;
+	padding-left: 8px;
+	}
+/*#before_R:before{
+	content:" | ";
+	padding-right: 2px;
+	padding-left: 2px;
+	color:#FF6600;
+	}*/
+ul {
+	list-style: none;
+	margin-top: 19px;
+	padding-left: 0px;
+	padding-bottom: 0px;
+	padding-top: 0px;
+	margin-left: 260px;
+	}
+li a{
+	font-size: 18px;
+	font-family: "Viner Hand ITC";
+	color: rgb( 255, 255, 255 );
+	text-decoration: none;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	padding-right: 0px;
+	padding-left: 0px;
+	}
+li a:hover{
+	color: #FF6600;
+	}
+#logo{
+	width: 140px;
+	height: 54px;
+	float: left;
+	}
+h1{
+	margin-top: 7px;
+	margin-left: 84px;
+
+	}
+#logo a{
+	font-size: 30px;
+	font-family: "Viner Hand ITC";
+	color: #FF6600;
+	text-decoration: none;
+	}
+#logo a:hover{
+		text-shadow: 0.1em 0.1em 0.05em #FF6600;
+	}
+	#the_orange{
+	width: 140px;
+	height: 102px;
+	float: left;
+	margin-left: 263px;
+	margin-right: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+		}
+#upload_w{
+	font-size: 30px;
+	font-family: "Viner Hand ITC";
+	width: 91px;
+	height: 30px;
+	margin-left: 19px;
+	margin-bottom: 5px;
+	margin-top: -5px;
+		}
+#upload_b{
+	width: 44px;
+	height: 34px;
+	margin-left: 18px;
+	margin-top: 1px;
+	margin-right: 10px;
+	}
+#bookmark_b{
+	width: 44px;
+	height: 34px;
+	}
+#upload_b,
+#bookmark_b:hover{
+	cursor:pointer;
+}
+#u_b{
+	width: 92px;
+	height: 70px;
+	float: left;
+	}
+/*----------Container--------*/
+#container_borders{
+	border-radius: 10px;
+	background-color: rgb( 255, 102, 0 );
+	width: 941px;
+	height: 556px;
+}
+.shape_1 {
+  background-color: rgb( 251, 250, 250 );
+  width: 226px;
+  height: 271px;
+  float:left;
+}
+
+#posetion_shape_1{
+	margin-top: 6px;
+	margin-left: 5px;
+}
+#posetion_shape_2{	
+	margin-top: 6px;
+	}
+#posetion_shape_3{
+	margin-top: 6px;
+	}
+#posetion_shape_4{
+	margin-top: 6px;
+	margin-right: 4px;
+	}
+#posetion_shape_4,
+#posetion_shape_3,
+#posetion_shape_2{
+margin-left: 9px;}
+
+
+#posetion_shape_5, 
+#posetion_shape_6,
+#posetion_shape_7,
+#posetion_shape_8{
+	margin-top: 2px;
+	}
+#posetion_shape_5{margin-left: 5px;}
+#posetion_shape_6,#posetion_shape_7,#posetion_shape_8 {margin-left: 9px;}
+
+/*--ADMIN--*/
+	#admin_{
+	width: 940px;
+	height: auto;
+	margin-bottom: 10px;
+	margin-top: 0px;
+	padding-top: 0px;
+	background-color: #0066CC;
+	margin-left: 39px;
+		}
+	#admin_ ul{
+	margin-top: 0px;
+	margin-left: 360px;
+	margin-right: 0px;
+			}
+	#admin_ ul li{
+		padding-left: 4px;
+		display:inline;
+		}
+	#admin_ ul li a:hover{
+		text-decoration:underline;
+		}
+		/*--End of ADMIN--*/
